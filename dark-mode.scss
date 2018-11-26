@@ -2299,6 +2299,30 @@ body:not(.gutenberg-editor-page) {
 
 	}
 
+	.row-actions span {
+
+		&.delete,
+		&.spam,
+		&.trash {
+
+			a {
+
+				color: $light-red;
+
+				&:hover,
+				&:focus,
+				&:active {
+
+					color: $accent-red;
+
+				}
+
+			}
+
+		}
+
+	}
+
 	#titlediv #title,
 	input[type=text],
 	input[type=search],
