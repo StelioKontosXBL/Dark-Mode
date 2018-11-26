@@ -2201,11 +2201,11 @@ body:not(.gutenberg-editor-page) {
 	.button-primary,
 	&.wp-core-ui .button-primary {
 
-		background: $medium-blue;
+		background: $light-blue;
 		border-color: $dark-blue $dark-grey $dark-grey;
 		color: $white;
 		box-shadow: 0 1px 0 $ultra-grey;
-		text-shadow: none;
+		text-shadow: 0 -1px 1px $dark-grey, 1px 0 1px $dark-grey, 0 1px 1px $dark-grey, -1px 0 1px $dark-grey;
 
 		&.button-hero {
 
@@ -2214,7 +2214,7 @@ body:not(.gutenberg-editor-page) {
 			&.active,
 			&:active {
 
-				box-shadow: inset 0 3px 0 $light-blue !important;
+				box-shadow: inset 0 3px 0 $base-blue !important;
 
 			}
 
@@ -2224,17 +2224,17 @@ body:not(.gutenberg-editor-page) {
 		&:focus,
 		&:active {
 
-			background: $light-blue;
+			background: $base-blue;
 			border-color: $dark-blue $dark-grey $dark-grey;
 			color: $white;
 			box-shadow: 0 1px 0 $ultra-grey;
-			text-shadow: none;
+			text-shadow: 0 -1px 1px $dark-grey, 1px 0 1px $dark-grey, 0 1px 1px $dark-grey, -1px 0 1px $dark-grey;
 
 		}
 
 		&:active {
 
-			background: $light-blue;
+			background: $dark-blue;
 
 		}
 
@@ -2253,7 +2253,7 @@ body:not(.gutenberg-editor-page) {
 			background: $dark-grey !important;
 			border-color: $ultra-grey !important;
 			color: $light-grey !important;
-			text-shadow: none;
+			text-shadow: none !important;
 
 		}
 
