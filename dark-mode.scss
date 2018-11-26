@@ -187,6 +187,20 @@ body:not(.gutenberg-editor-page) {
 
 				color: $bright-blue;
 
+				&:hover {
+
+					color: $light-blue;
+
+				}
+
+				&:focus {
+
+					color: $light-blue;
+					-webkit-box-shadow: 0 0 0 1px $light-blue, 0 0 2px 1px rgba(0, 160, 210, 0.8);
+					box-shadow: 0 0 0 1px $light-blue, 0 0 2px 1px rgba(0, 160, 210, 0.8);
+
+				}
+
 				span.count,
 				&.current span.count {
 
